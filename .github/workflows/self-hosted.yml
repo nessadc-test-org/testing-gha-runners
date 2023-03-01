@@ -11,3 +11,5 @@ jobs:
         run: git --version
       - name: aws
         run: aws --version
+      - name: show aws IAM role
+        run: aws sts get-caller-identity

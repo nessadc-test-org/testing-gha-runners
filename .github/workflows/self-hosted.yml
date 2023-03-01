@@ -1,0 +1,13 @@
+name: self-hosted integration test
+
+on: workflow_dispatch
+
+jobs:
+  fargate:
+    runs-on: [self-hosted]
+    steps:
+      - run: ls -lah
+      - name: git
+        run: git --version
+      - name: aws
+        run: aws --version

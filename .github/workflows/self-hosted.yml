@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   fargate:
-    runs-on: [self-hosted, fargate]
+    runs-on: [self-hosted, sysops-sb-fargate]
     steps:
       - run: ls -lah
       - name: git

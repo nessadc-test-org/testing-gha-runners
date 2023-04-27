@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   fargate:
-    runs-on: [self-hosted, nc-test-fargate]
+    runs-on: [self-hosted, nc-sb-fargate]
     steps:
       - run: ls -lah
       - name: git

@@ -13,3 +13,5 @@ jobs:
         run: aws --version
       - name: show aws IAM role
         run: aws sts get-caller-identity
+      - name: pipx confirm
+        run: pipx --version

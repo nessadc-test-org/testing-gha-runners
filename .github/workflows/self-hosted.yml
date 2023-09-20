@@ -15,3 +15,6 @@ jobs:
         run: aws sts get-caller-identity
       - name: pipx confirm
         run: pipx --version
+      - name: docker confirm
+        run: docker --version
+

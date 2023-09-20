@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   fargate:
-    runs-on: [self-hosted, github-runner-service, 608616343410, us-east-1, fargate]
+    runs-on: [self-hosted, github-runner-service, 393100896676, us-east-1, fargate]
     steps:
       - run: ls -lah
       - name: git

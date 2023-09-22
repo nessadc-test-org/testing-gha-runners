@@ -17,4 +17,6 @@ jobs:
         run: pipx --version
       - name: docker confirm
         run: docker --version
+      - name: terraform confirm
+        run: terraform --version
 
